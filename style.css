@@ -7,7 +7,7 @@
   float: left;
   list-style: none;
   margin-left: 20px;
-  border-bottom: 2px solid #aaa;
+  border-bottom: 2px solid #ccc;
   padding-bottom: 5px;
   position: relative;
 }
@@ -32,7 +32,7 @@ img {
   height: 0;
   border-style: solid;
   border-width: 10px 10px 0 10px;
-  border-color: #bac4cf transparent transparent transparent;
+  border-color: #ccc transparent transparent transparent;
   position: absolute;;
   left: 424px;
   bottom: 47px;
