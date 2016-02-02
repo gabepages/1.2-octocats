@@ -6,7 +6,9 @@
   width: 450px;
   float: left;
   list-style: none;
-  margin-left: 12px;
+  margin-left: 20px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 5px;
 }
 
 
@@ -14,8 +16,18 @@ img {
   max-width: 100%;
 }
 
-.octocat > a > img {
-  border: 1px solid #aaa;
+.octocat > a {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+.octocat > a > img::after{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 17.3px 10px 0 10px;
+  border-color: #bac4cf transparent transparent transparent;
 }
 
 .image-footer img {
@@ -23,6 +35,10 @@ img {
   width: 30px;
   border: none;
   border-radius: 10px;
+}
+
+.image-footer {
+    padding-top: 15px;
 }
 
 .authors {
@@ -46,18 +62,31 @@ img {
 .image-caption > span {
   display: inline-block;
   margin-top: 9px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #888;
+  padding-right: 4px;
 }
 
 .image-caption > a {
   display: inline-block;
   margin-top: 9px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
 }
 
-.image-caption span:second-child {
-  padding-right: 4px;
-}
 
 .image-number {
   float: left;
   margin-top: 9px;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #999;
+}
+
+.image-number::before {
+  content: "#";
 }
