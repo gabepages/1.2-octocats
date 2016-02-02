@@ -1,0 +1,65 @@
+.octocat {
+  width: 27%;
+  float: left;
+  list-style: none;
+  margin: 0 3%;
+
+}
+.octocat img {
+  display: inline-block;
+}
+
+img{
+  max-width: 100%;
+  border: 1px solid #aaa;
+  padding: 7%;
+}
+div {
+  display: inline-block;
+}
+
+.image-footer {
+  display: inline-block;
+
+}
+
+.image-footer img {
+  display: inline-block;;
+  margin: 0 auto;
+  max-width: 15%;
+  list-style: none;
+  float: right;
+  border: none;
+  vertical-align: bottom;
+
+}
+.authors {
+  list-style: none;
+  vertical-align: bottom;
+
+}
+
+.authors img{
+  padding: 1px;
+  vertical-align: bottom;
+}
+
+span {
+  display: inline-block;
+}
+
+.image-caption span a{
+  display: inline-block;
+  float: right;
+
+}
+
+.image-caption{
+  display: inline;
+  float: right;
+}
+
+.image-number{
+  display: inline-block;
+  float: left;
+}
