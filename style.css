@@ -7,8 +7,9 @@
   float: left;
   list-style: none;
   margin-left: 20px;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 2px solid #aaa;
   padding-bottom: 5px;
+  position: relative;
 }
 
 
@@ -18,17 +19,27 @@ img {
 
 .octocat > a {
   display: block;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   padding: 10px;
 }
-.octocat > a > img::after{
+
+/* triangle from generator */
+
+.octocat::after {
+  content: "";
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 17.3px 10px 0 10px;
+  border-width: 10px 10px 0 10px;
   border-color: #bac4cf transparent transparent transparent;
+  position: absolute;;
+  left: 424px;
+  bottom: 47px;
+
 }
+
+
 
 .image-footer img {
   display: inline-block;;
