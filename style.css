@@ -43,14 +43,6 @@ img {
   float: right;
 }
 
-.image-caption > span {
-  padding-top: -top: 10px;
-}
-
-.image-caption > a {
-  padding-top: 10px;
-}
-
 .image-number {
   float: left;
 }
